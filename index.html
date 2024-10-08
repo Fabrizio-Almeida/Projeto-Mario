@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+    <div class="cabeça">
+        <img src="./img/icon.png" alt="cabeça">
+        <a>Home</a>
+        <a>Nossos Serviçaos</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <p>Resolvendo seus Problemas com Estilo</p>
+            <p>Você se encontra em uma situação de emergência?
+                Vazamentos inesperados,canos entupidos ou torneiras que não param de pingar?
+                Não se preocupe, poque estamos aqui para salvar o seu dia!
+                Apresentamos a você os encanadores mais famosos do Reino dos Cogumelos: Mario e Luigi! </p>
+
+
+
+            <button onclick="cliqueinobotao()">Entre Em Conatato</button>
+        </div>
+        <div>
+            <img src="./img/mario.png" alt="Mario e luid" class="imagen-mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5573981332637?text=Ola%20quero%20ajuda." class="link-whatsapp">
+        <img src="./img/WhatsApp-removebg-preview.png" alt="link para o whatsapp">
+
+    </a>
+
+    <a href="https://t.me/fsalmeida" class="link-telegram">
+        <img src="./img/images-removebg-preview.png">
+    </a>
+
+    <form 
+    class="Fale-conosco" 
+    action="https://formcarry.com/s/iGgRGIUji4C" 
+    method="POST" 
+    nctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
