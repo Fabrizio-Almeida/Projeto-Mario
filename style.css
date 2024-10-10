@@ -160,40 +160,44 @@ textarea {
 }
 
 @media(max-width: 1100px) {
-p {
-    Display: none;
-}
+    p {
+        Display: none;
+    }
 
-.caixa-mae {
-    flex-direction: column;
-    padding: 10px;
-}
+    .Fale-conosco {
+        transform: translateX(-107px);
+    }
 
-.caixa-principal {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+    }
 
-.imagen-mario-luigi {
-    width: 80vw;
-    height: auto;
-    
-}
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.cabeça img {
-    display: none;
-}
+    .imagen-mario-luigi {
+        width: 80vw;
+        height: auto;
 
-.cabeça {
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    }
 
-.cabeça a {
-    font-size: 20px;
-}
+    .cabeça img {
+        display: none;
+    }
+
+    .cabeça {
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabeça a {
+        font-size: 20px;
+    }
 
 }
